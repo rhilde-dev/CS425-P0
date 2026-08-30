@@ -32,3 +32,11 @@ char *get_greeting(const char *restrict name)
 
   return greeting;
 }
+
+int sum(int int1, int int2){
+  return int1 + int2;
+}
+
+int bad_sum(int int1, int int2){
+  return int1 + int2 + 4; //offset sum by 4 so that the sum is always incorrect
+}

@@ -1,22 +1,13 @@
-# Project X
+# Project 0 - Compile, Test, Debug
 
-- Name: John Doe
-- Email: johndoe@u.boisestate.edu
-- Class: CS123-001
+- Name: Rylee Hilde
+- Email: ryleehilde@u.boisestate.edu
+- Class: CS425-001
 
 ## Known Bugs or Issues
 
-TODO: Are there any known issues?
+There are no known issues. All tests are passing and has 100% code coverage
 
 ## Experience
 
-TODO: Describe your experience with the project (struggles, breakthroughs, etc.).
-
-## Analysis
-
-TODO: Provide your analysis of the results. If the assignment does not require
-analysis, you can remove this section.
-
-Here is an example of how to include a plot in your README:
-
-![Example Image](scripts/example_plot.png)
+My experience with the project has been quite smooth. As the main goal of the project was to refresh our skills with the C language, I think it did a great job of that and also gave me a lot more experience with C test frameworks like Unity.

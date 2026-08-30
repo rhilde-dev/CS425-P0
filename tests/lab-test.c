@@ -27,8 +27,20 @@ void test_get_greeting(void) {
   free(greeting);
 }
 
+void test_sum(void) {
+  int total = sum(2,2);
+  TEST_ASSERT_EQUAL_INT(4, total);
+}
+
+void test_bad_sum(void) {
+  int total = bad_sum(2,2);
+  TEST_ASSERT_EQUAL_INT(8, total);
+}
+
 int main(void) {
   UNITY_BEGIN();
   RUN_TEST(test_get_greeting);
+  RUN_TEST(test_sum);
+  RUN_TEST(test_bad_sum);
   return UNITY_END();
 }
